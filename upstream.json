@@ -17,9 +17,9 @@
     "pinnedAt": "2025-07-24T17:01:33+01:00",
     "pinnedTag": "v0.0.8",
     "fetched": "a5872d5da7ab67abaa3cdf953769104d484edfbd",
-    "fetchedAt": "2026-09-02T05:59:15Z",
+    "fetchedAt": "2026-09-02T06:07:17Z",
     "integrated": "a5872d5da7ab67abaa3cdf953769104d484edfbd",
-    "integratedAt": "2026-09-02T05:59:15Z"
+    "integratedAt": "2026-09-02T06:07:17Z"
   },
   "owner": {
     "github": "pangin",
@@ -38,23 +38,17 @@
   },
   "licenseBoundary": {
     "root": "BUSL-1.1 (Change Date 2029-07-22 → MIT; package.json은 MIT로 표기되어 불일치)",
-    "commercialPaths": [
-      "저장소 전체"
-    ],
+    "commercialPaths": ["저장소 전체"],
     "productionRestriction": "production/사내 업무 사용은 유효한 license key 필요(코드상 검사는 없음)",
     "licenseKeyEnvVars": [],
     "ossOnlyPolicy": "빌드·테스트·--dry-run만.",
-    "licenseFiles": [
-      "LICENSE.md"
-    ],
+    "licenseFiles": ["LICENSE.md"],
     "noticeFiles": []
   },
   "build": {
     "node": "20.x",
     "packageManager": "pnpm",
-    "lockfiles": [
-      "pnpm-lock.yaml"
-    ],
+    "lockfiles": ["pnpm-lock.yaml"],
     "install": "pnpm install --frozen-lockfile",
     "build": "pnpm run build",
     "test": "pnpm vitest run",
@@ -101,11 +95,6 @@
     "appliedAt": null,
     "note": "GitHub rulesets on public repos (Free plan). appliedAt is filled when rulesets are active."
   },
-  "linear": [
-    "GONG-871",
-    "GONG-872",
-    "GONG-876",
-    "GONG-875"
-  ],
-  "generatedAt": "2026-09-02T05:59:15Z"
+  "linear": ["GONG-871", "GONG-872", "GONG-876", "GONG-875"],
+  "generatedAt": "2026-09-02T06:07:17Z"
 }
